@@ -1,2 +1,11 @@
 # react-chat
-React chat components
+
+## Installation
+
+```sh
+yarn add @swiftcarrot/react-chat
+```
+
+## License
+
+MIT

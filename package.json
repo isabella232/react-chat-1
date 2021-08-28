@@ -1,0 +1,12 @@
+{
+  "name": "@swiftcarrot/react-chat",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "author": "Wang Zuo <wangzuo@swiftcarrot.com> (https://swiftcarrot.com)",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "date-fns": "^2.16.1",
+    "simplebar-react": "^2.3.0"
+  }
+}

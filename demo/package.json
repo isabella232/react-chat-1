@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development webpacker serve -l http://localhost:9103",
+    "build": "rm -rf build && NODE_ENV=production webpacker build"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@swiftcarrot/request": "^0.2.2",
+    "history": "^5.0.0",
+    "react": "^16.13.1",
+    "react-avatar-input": "^0.1.1",
+    "react-dom": "^16.13.1",
+    "react-normalize": "^0.4.4",
+    "react-router-dom": "^6.0.0-beta.0"
+  }
+}

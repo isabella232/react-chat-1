@@ -1,0 +1,7 @@
+site: demo
+public: build
+command: yarn && yarn build
+force_ssl: true
+rewrites:
+  - source: '**'
+    destination: /index.html

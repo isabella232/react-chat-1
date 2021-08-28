@@ -1,0 +1,24 @@
+.window {
+  display: flex;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  border-right: 1px solid #ddd;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.activities {
+  flex: 1;
+}
+
+.toolbar {
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
